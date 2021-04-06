@@ -1,0 +1,30 @@
+{
+    "name": "jiny/laravel-hello-test",
+    "description": "package testing for laravel",
+    "type": "library",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "hojinlee",
+            "email": "infohojin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Jiny\\Hello":"src/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jin\\Hello\\HelloServiceProvider"
+            ]
+        }
+    }
+
+}
